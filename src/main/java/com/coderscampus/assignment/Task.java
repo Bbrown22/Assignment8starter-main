@@ -46,7 +46,7 @@ public class Task {
 		    
 		    task.shutdown();
 
-		    for (int i = 0; i <= 10; i++) {
+		    for (int i = 0; i <= 14; i++) {
 		        System.out.println(i + "=" + frequencyMap.getOrDefault(i, 0));
 		    }
 		}
